@@ -10,7 +10,7 @@ export default function BudgetCalculator() {
   const [month, setMonth] = useState(new Date().getMonth());
 
   return (
-    <>
+    <div>
       <DateSelector
         year={year}
         setYear={setYear}
@@ -23,6 +23,6 @@ export default function BudgetCalculator() {
       />
       <h2>Spending report for {months[month]} {year}</h2>
       <Spending />
-    </>
+    </div>
   );
 }
