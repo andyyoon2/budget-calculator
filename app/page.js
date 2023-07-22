@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <main class={styles.main}>
-        <h1>Hello budget calculator</h1>
+        <h1 class={styles.h1}>Hello budget calculator</h1>
         <BudgetCalculator />
       </main>
     </div>
